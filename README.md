@@ -1,5 +1,7 @@
 # Roman Emperors from 26 BC to 395 AD
 
+This data is in progress. Data rows 1 through 1 are correct.
+
 ## Data Notes
 
 ### Year Issues
@@ -27,4 +29,8 @@ In the `cause` column,
 
 ### Succession
 
-An emporor's rise to power was one of the following:
+In the `succession` column, an emporor's rise to power occurred in one of the following situations:
+
+* **Birthright** - Cases in which an emperor's lineage was the determining factor in their control of the Empire, with little conflict.
+* **Seized Power** - Cases in which an emporor used violent force to seize the Empire.
+* **Appointment by Army**
