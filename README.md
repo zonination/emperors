@@ -40,5 +40,5 @@ In the `killer` column, we are concerned with **who** killed the emperor or **th
 In the `succession` column, an emporor's rise to power occurred in one of the following situations:
 
 * **Birthright** - Cases in which an emperor's lineage was the determining factor in their control of the Empire, with little conflict.
-* **Seized Power** - Cases in which an emporor used violent force, or clever opportunism, to seize the Empire without birthright or appointment.
+* **Seized Power** - Cases in which an emporor used violent force, self-proclamation, or clever opportunism, to seize the Empire without birthright or appointment.
 * **Appointment by X** - Cases in which an emperor was appointed by an **Army**, the **Senate**, an **Emperor**, or **Praetorian Guard**.
