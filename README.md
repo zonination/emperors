@@ -4,6 +4,8 @@ Data verification is in progress. Data rows 1 through 1 are correct.
 
 ## Data Notes
 
+Note: Information that is completely missing from historical sources is **left blank**.
+
 ### Year Issues
 
 Since these sources are from ancient texts, there are a certain number of unknown dates. Below are some notes on how `birth`, `death`, `reign.start`, and `reign.end`. were calculated:
