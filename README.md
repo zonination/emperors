@@ -19,6 +19,8 @@ Since these sources are from ancient texts, there are a certain number of unknow
     * The year had 1 year subtracted from its absolute value, to make it consistent with [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601#Years) (e.g. 1AD = 0001, 1BC = 0000, 2BC = 0001, 3BC = 0002, ...).
     * The "notes" column will state BCE date.
     * The code in `emperors.R` was modified to invert the sign of that specific value (e.g. 1AD = 0001, 1BC = 0000, 2BC = -001, 3BC = -002, ...) to complete the process of ISO 8601 compatibility.
+    
+Discrepancies will be listed in the `notes` column.
 
 ### Cause of Death Definitions
 
@@ -30,12 +32,16 @@ In the `cause` column, an emperor's *mode of* death probably needs clarifying in
 * **Died in Battle** occurred when a homicide was committed against an emperor during battle or as a result of battle.
 * **Natural Causes** occurred when an emperor died due to disease, plague, or something internal.
 
+Discrepancies will be listed in the `notes` column.
+
 ### Killers
 
 In the `killer` column, we are concerned with **who** (generally) killed the emperor or **the root cause**, *not mode of* as with `cause`. Some definitions that might need clarification:
 
 * **Other Emperor** The person who committed homicide against an emperor was another emperor, or was a successor.
 * If it was **Natural Causes**, usually the disease that killed the emperor will be listed, usually **Plague**, **Fever** or **Heart Failure**. In rare cases, this will be **Lightning** or **Fire**. If the cause is unknown, **Disease** will simply be listed.
+
+Discrepancies will be listed in the `notes` column.
 
 ### Succession
 
@@ -44,3 +50,5 @@ In the `succession` column, an emporor's rise to power occurred in one of the fo
 * **Birthright** - Cases in which an emperor's lineage was the determining factor in their control of the Empire, with little conflict.
 * **Seized Power** - Cases in which an emporor used violent force, self-proclamation, or clever opportunism, to seize the Empire without birthright or appointment.
 * **Appointment by X** - Cases in which an emperor was appointed by an **Army**, the **Senate**, an **Emperor**, or **Praetorian Guard**.
+
+Discrepancies will be listed in the `notes` column.
