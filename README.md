@@ -14,6 +14,7 @@ Since these sources are from ancient texts, there are a certain number of unknow
     * In the case it was `birth` or `reign.start`, the earlier date was chosen.
     * In the case it was `death` or `reign.end`, the later date was chosen.
 * If the *year and one of two possible months* of the date was known, but not the day, the first date of the second month was chosen (middle of the two options).
+* If *two adjacent years* of the date was known, but not the *month* or *day*, January 1 of the second year was chosen (middle of the two options).
 * If the date was BCE, the following actions were performed:
     * The year was made positive
     * The year had 1 year subtracted from its absolute value, to make it consistent with [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601#Years) (e.g. 1AD = 0001, 1BC = 0000, 2BC = 0001, 3BC = 0002, ...).
