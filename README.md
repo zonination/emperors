@@ -22,18 +22,20 @@ Since these sources are from ancient texts, there are a certain number of unknow
 
 ### Cause of Death Definitions
 
-In the `cause` column, an emperor's death probably needs clarifying in some instances:
+In the `cause` column, an emperor's *mode of* death probably needs clarifying in some instances:
 
-* **Suicide** in antiquity was generally a political move, and was often committed in instances where there was strong political pressure. This could either be **Voluntary** or **Forced**. [[Further Reading](https://en.wikipedia.org/wiki/Suicide_in_antiquity#Ancient_reasons_for_committing_suicide)]
+* **Suicide** in antiquity was generally a political move, and was often committed in instances where there was strong political pressure. This could either be *Voluntary* or *Forced* but won't be noted as such. [[Further Reading](https://en.wikipedia.org/wiki/Suicide_in_antiquity#Ancient_reasons_for_committing_suicide)]
 * **Assassination** occurred when a homicide was committed against an emperor *outside* due process law.
 * **Execution** occurred when a homicide was committed against an emperor *within* due process of law.
 * **Died in Battle** occurred when a homicide was committed against an emperor during battle or as a result of battle.
+* **Natural Causes** occurred when an emperor died due to disease, plague, or something internal.
 
 ### Killers
 
-In the `killer` column, we are concerned with **who** killed the emperor or **the root cause**, *not what* as with `cause`. Some definitions that might need clarification:
+In the `killer` column, we are concerned with **who** (generally) killed the emperor or **the root cause**, *not mode of* as with `cause`. Some definitions that might need clarification:
 
-* **Successor** doesn't necessarily mean that the person who committed homicide was younger than the victim. It simply indicates that a current emperor was vying for power.
+* **Other Emperor** The person who committed homicide against an emperor was another emperor, or was a successor.
+* If it was **Natural Causes**, usually the disease that killed the emperor will be listed, usually **Plague**, **Fever** or **Heart Failure**. In rare cases, this will be **Lightning** or **Fire**. If the cause is unknown, **Disease** will simply be listed.
 
 ### Succession
 
