@@ -1,6 +1,6 @@
 # Roman Emperors from 26 BC to 395 AD
 
-Data verification is in progress. Data rows 1 through 1 are correct.
+Data verification is in progress. Data rows 1 through 5 are correct.
 
 ## Data Notes
 
