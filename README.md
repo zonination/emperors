@@ -6,7 +6,24 @@ Data verification is in progress. Data rows 1 through 5 are correct.
 
 **Source:** https://en.wikipedia.org/wiki/List_of_Roman_emperors, cross-checked with all linked pages.
 
-The column headers are listd below: 
+The column headers are described as below:
+
+* `index` - A serial numbering ID for each emperor
+* `name` - The common name of each emperor
+* `name.full` - The full name of each emperor
+* `birth` - The best estimate or actual date of birth. See [Year Issues](https://github.com/zonination/emperors/blob/master/README.md#year-issues) for more information.
+* `death` - The best estimate or actual date of death. See [Year Issues](https://github.com/zonination/emperors/blob/master/README.md#year-issues) for more information.
+* `birth.cty` - Location of birth by city.
+* `birth.prv` - Location of birth by province.
+* `rise` - Rise to power. See [Rise](https://github.com/zonination/emperors/blob/master/README.md#rise-definitions) for more information.
+* `reign.start` - The best estimate or actual date of the emperor's start of reign. See [Year Issues](https://github.com/zonination/emperors/blob/master/README.md#year-issues) for more information.
+* `reign.end` - The best estimate or actual date of the emperor's end of reign. See [Year Issues](https://github.com/zonination/emperors/blob/master/README.md#year-issues) for more information.
+* `cause` - Cause of death by mode. See [Cause of Death Definitions](https://github.com/zonination/emperors/blob/master/README.md#cause-of-death-definitions) for more information.
+* `killer` - Who or what caused the death of the emperor. See [Killer Definitions](https://github.com/zonination/emperors/blob/master/README.md#killer-definitions) for more information.
+* `dynasty` - Which historical dynasty the emperor belonged to.
+* `era` - Which era the emperor belonged to.
+* `notes` - Notes regarding additional information, discrepancies, or potential issues regarding the data.
+* `verif.who` - Information was supplied to one or more parties for independent checking. This column contains contact information for the person who verified this row of data.
 
 Note: Information that is completely missing from historical sources is **left blank**.
 
@@ -41,7 +58,7 @@ In the `cause` column, an emperor's *mode of* death probably needs clarifying in
 
 Discrepancies will be listed in the `notes` column.
 
-### Killers
+### Killer Definitions
 
 In the `killer` column, we are concerned with **who** (generally) killed the emperor or **the root cause**, *not mode of* as with `cause`. Some definitions that might need clarification:
 
@@ -51,7 +68,7 @@ In the `killer` column, we are concerned with **who** (generally) killed the emp
 
 Discrepancies will be listed in the `notes` column.
 
-### Rise
+### Rise Definitions
 
 In the `rise` column, an emporor's rise to power occurred in one of the following situations:
 
