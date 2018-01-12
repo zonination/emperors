@@ -6,6 +6,8 @@ Data verification is in progress. Data rows 1 through 5 are correct.
 
 **Source:** https://en.wikipedia.org/wiki/List_of_Roman_emperors, cross-checked with all linked pages.
 
+The column headers are listd below: 
+
 Note: Information that is completely missing from historical sources is **left blank**.
 
 ### Year Issues
