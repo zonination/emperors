@@ -45,6 +45,7 @@ In the `killer` column, we are concerned with **who** (generally) killed the emp
 
 * **Other Emperor** The person who committed homicide against an emperor was another emperor, or was a successor.
 * If it was **Natural Causes**, usually the disease that killed the emperor will be listed, usually **Plague**, **Fever** or **Heart Failure**. In rare cases, this will be **Lightning** or **Fire**. If the cause is unknown, **Disease** will simply be listed.
+* The **Praetorian Guard** was notorious for assassinating emperors, despite their function.
 
 Discrepancies will be listed in the `notes` column.
 
@@ -55,5 +56,6 @@ In the `rise` column, an emporor's rise to power occurred in one of the followin
 * **Birthright** - Cases in which an emperor's lineage was the determining factor in their control of the Empire, with little conflict.
 * **Seized Power** - Cases in which an emporor used violent force, self-proclamation, or clever opportunism to seize the Empire without birthright or appointment.
 * **Appointment by X** - Cases in which an emperor was appointed by an **Army**, the **Senate**, an **Emperor**, or **Praetorian Guard**.
+* Other rare occurrences include **Election**.
 
 Discrepancies will be listed in the `notes` column.
