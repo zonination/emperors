@@ -23,7 +23,7 @@ The column headers are described as below:
 * `dynasty` - Which historical dynasty the emperor belonged to.
 * `era` - Which era the emperor belonged to.
 * `notes` - Notes regarding additional information, discrepancies, or potential issues regarding the data.
-* `verif.who` - Information was supplied to one or more parties for independent checking. This column contains contact information for the person who verified this row of data.
+* `verif.who` - Information was compiled then vetted to one or more parties for independent checking. This column contains contact information for the person who verified this row of data.
 
 Note: Information that is completely missing from historical sources is **left blank**.
 
